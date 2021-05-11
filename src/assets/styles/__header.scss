@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+  box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+  padding: 0 10%;
+}
+.header__logo {
+  width: 120px;
+  cursor: pointer;
+}
+.buttons {
+  display: flex;
+}
+.buttons__sign-in {
+  width: 80px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 24px;
+  margin-right: 5%;
+  border: 1px solid #e0e0e0;
+  border-radius: 2px;
+  background-color: #ffff;
+  cursor: pointer;
+}
+.buttons__register {
+  width: 80px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 24px;
+  border-radius: 2px;
+  border: none;
+  color: #ffff;
+  background-color: #262626;
+  cursor: pointer;
+}
